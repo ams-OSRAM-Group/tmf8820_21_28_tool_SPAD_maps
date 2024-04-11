@@ -13,7 +13,15 @@ Create a new SPAD mask
   - testSpadMapChannel
   - testSpadMapEnable
 2. Compile your project via "make"
-3. Run ./spad_masks from a command line. The tool prints the SPAD map and mask as c-struct, I2C sequence, and 2D-view.
+3. Run ./spad_tool from a command line. The tool prints the SPAD map and mask as c-struct, I2C sequence, and 2D-view.
+
+Run SPAD map tool online
+========================
+
+In order to execute the tool without installation open https://mybinder.org/v2/gh/ams-OSRAM-Group/tmf8820_21_28_tool_SPAD_maps/HEAD
+Then open the **shell tool** inside the Jupyterlab launcher and follow the steps from above section to create a new SPAD mask:
+
+![image](https://github.com/ptr814/tmf8820_21_28_tool_SPAD_maps/assets/165814981/0a4b14f1-9af9-4f82-ba7f-d05621f2e005)
 
 Sample Output
 =============
